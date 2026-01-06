@@ -491,7 +491,7 @@ const Experience: React.FC = () => (
       <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">Experience & Education</h2>
       <div className="relative">
         <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-blue-600 dark:bg-blue-400"></div>
-        {portfolioData.experience.map((exp, idx) => (
+        {portfolioData.experience.map((exp) => (
           <div key={exp.id} className="relative pl-20 pb-12">
             <div className={`absolute left-6 w-5 h-5 rounded-full border-4 ${
               exp.type === 'work' ? 'bg-blue-600 border-blue-200' : 'bg-green-600 border-green-200'
