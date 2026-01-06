@@ -117,7 +117,8 @@ const portfolioData = {
       title: "Habit Tracker App",
       description: "A comprehensive habit tracking web application built for PBL with Supabase authentication and real-time database synchronization. Features dynamic pie charts visualizing daily progress for good vs bad habits with an intuitive, responsive UI.",
       tech: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
-      github: "https://github.com/18sahhhilll/RoutineX-Main"
+      github: "https://github.com/18sahhhilll/RoutineX-Main",
+      demo: "https://routine-x-main.vercel.app/"
     },
     {
       id: 3,
