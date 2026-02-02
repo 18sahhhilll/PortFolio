@@ -332,8 +332,12 @@ const Hero: React.FC = () => (
   <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
     <div className="max-w-7xl mx-auto text-center">
       <div className="mb-8 flex justify-center">
-        <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-xl">
-          SS
+        <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl border-4 border-blue-500">
+          <img
+            src="/image.jpeg"
+            alt="Sahil Sangle"
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
       <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
@@ -696,7 +700,7 @@ const Footer: React.FC = () => (
 
 // Main App Component
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     if (darkMode) {
